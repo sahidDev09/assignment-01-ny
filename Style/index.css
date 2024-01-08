@@ -355,3 +355,55 @@ main {
   background-color: transparent;
   border: none;
 }
+
+/* code for styling footer section */
+
+.footer-section {
+  margin-top: 100px;
+  background-color: rgb(29, 29, 29);
+  padding: 50px 140px;
+}
+
+.footer-address {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+}
+.footer-address h1 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.footer-section hr {
+  margin: 30px 0;
+  opacity: 0.1;
+}
+
+.social-media-icons img{
+  width: 50px;
+  
+}
+
+.social-media-icons{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.copyright-section button{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+}
