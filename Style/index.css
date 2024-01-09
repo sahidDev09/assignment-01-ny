@@ -245,10 +245,25 @@ main {
   display: flex;
   align-items: center;
   margin: auto;
-  background-image: url("../resources/Rectangle\ 1.png"),
-    url("../resources/Rectangle\ 2.png");
+  background-image: url("../resources/Rectangle\ 2.png");
   background-repeat: no-repeat;
-  background-position: top right, bottom left;
+  background-position: bottom center;
+}
+
+.dis-img {
+  position: relative;
+}
+
+.dis-girl {
+  position: relative;
+  left: 58px;
+  bottom: 100px;
+  z-index: -10;
+}
+
+.circle-dis {
+  position: absolute;
+  left: -100px;
 }
 
 .surprise-img {
@@ -282,11 +297,16 @@ main {
   width: 100%;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin: 24px 0;
+.card-col1 {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.card-col2 {
+  display: flex;
+  gap: 20px;
 }
 
 .card img {
@@ -349,12 +369,14 @@ main {
 .input-news button {
   text-align: center;
   margin-left: 17px;
+  cursor: pointer;
   color: white;
   font-size: 1.1rem;
   font-weight: 800;
   background-color: transparent;
   border: none;
 }
+
 
 /* code for styling footer section */
 
@@ -381,26 +403,25 @@ main {
   opacity: 0.1;
 }
 
-.social-media-icons img{
+.social-media-icons img {
   width: 50px;
-  
 }
 
-.social-media-icons{
+.social-media-icons {
   display: flex;
   gap: 30px;
   justify-content: center;
   align-items: center;
 }
 
-.copyright-section{
+.copyright-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: white;
 }
 
-.copyright-section button{
+.copyright-section button {
   padding: 5px;
   border: none;
   border-radius: 5px;
